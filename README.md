@@ -1,5 +1,5 @@
 # Analyzing-HR-Data-Insights-into-Employee-Demographics-and-Trends
-Analyzing HR Data: Insights into Employee Demographics and Trends
+
 ## Introduction:
 In today's data-driven world, organizations rely on data analysis to gain valuable insights into various aspects of their operations. One crucial area is human resources (HR), where analyzing employee data can provide valuable information about the workforce. In this article, we will explore a comprehensive analysis of HR data, including the gender breakdown, race/ethnicity distribution, age demographics, location distribution, employment length, gender distribution across departments and job titles, job title distribution, turnover rate by department, employee distribution across locations, and changes in employee count over time. The analysis is conducted using MySQL for data cleaning and analysis, and PowerBI for data visualization.
 ## Data Used:
@@ -283,6 +283,8 @@ GROUP BY department;
 This query calculates the average tenure (in years) for each department in the 'hr' table. It considers only employees aged 18 and above and have been terminated. The results provide the average tenure rounded to the nearest whole number for each department.
 
 **Data Visualization** - PowerBI
+![image](https://github.com/irfanaliguarulhos/Analyzing-HR-Data-Insights-into-Employee-Demographics-and-Trends/blob/4908dc7cdcbd0cff3600f2035d8d3c98761dc5e0/pic%2002.png)
+![image](https://github.com/irfanaliguarulhos/Analyzing-HR-Data-Insights-into-Employee-Demographics-and-Trends/blob/4908dc7cdcbd0cff3600f2035d8d3c98761dc5e0/pic%2001.png)
 
 
 ## Summary of Findings
